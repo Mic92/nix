@@ -228,7 +228,7 @@ void mainWrapped(int argc, char * * argv)
 
     verbosity = lvlNotice;
     settings.verboseBuild = false;
-    evalSettings.pureEval = true;
+    evalSettings.pureEval = false;
 
     setLogFormat("bar");
 
